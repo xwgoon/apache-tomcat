@@ -1,0 +1,331 @@
+2021-05-21 18:17:23.580 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> Starting ServletInitConfig on DESKTOP-7I6L3AP with PID 7972 (C:\Users\Admin\Downloads\apache-tomcat-9.0.46\apache-tomcat-9.0.46\webapps\web-0.0.1-SNAPSHOT-test\WEB-INF\classes started by Admin in C:\Users\Admin\Downloads\apache-tomcat-9.0.46\apache-tomcat-9.0.46\bin)
+2021-05-21 18:17:23.590 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> The following profiles are active: redis,mongo,db,test
+2021-05-21 18:17:28.021 >>> [main] >>> INFO  >>> o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>> Bean 'asyncConfiguration' of type [com.adas.core.config.AsyncConfiguration$$EnhancerBySpringCGLIB$$68d01572] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-21 18:17:29.144 >>> [main] >>> INFO  >>> o.s.b.w.s.c.ServletWebServerApplicationContext >>> Root WebApplicationContext: initialization completed in 5329 ms
+2021-05-21 18:17:31.858 >>> [main] >>> INFO  >>> o.s.scheduling.concurrent.ThreadPoolTaskScheduler >>> Initializing ExecutorService 'taskScheduler'
+2021-05-21 18:17:35.269 >>> [main] >>> INFO  >>> o.s.scheduling.concurrent.ThreadPoolTaskExecutor >>> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 18:17:35.559 >>> [main] >>> INFO  >>> o.s.b.a.web.servlet.WelcomePageHandlerMapping >>> Adding welcome page: class path resource [dist/index.html]
+2021-05-21 18:17:35.849 >>> [main] >>> INFO  >>> s.d.s.w.PropertySourcedRequestMappingHandlerMapping >>> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-21 18:17:36.687 >>> [main] >>> INFO  >>> s.d.s.web.plugins.DocumentationPluginsBootstrapper >>> Context refreshed
+2021-05-21 18:17:36.778 >>> [main] >>> INFO  >>> s.d.s.web.plugins.DocumentationPluginsBootstrapper >>> Found 1 custom documentation plugin(s)
+2021-05-21 18:17:36.938 >>> [main] >>> INFO  >>> s.d.spring.web.scanners.ApiListingReferenceScanner >>> Scanning for api listing references
+2021-05-21 18:17:37.885 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: findPageUsingPOST_1
+2021-05-21 18:17:37.923 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_1
+2021-05-21 18:17:37.949 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_1
+2021-05-21 18:17:37.964 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_1
+2021-05-21 18:17:37.980 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_2
+2021-05-21 18:17:38.009 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_2
+2021-05-21 18:17:38.021 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_2
+2021-05-21 18:17:38.071 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_3
+2021-05-21 18:17:38.087 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_3
+2021-05-21 18:17:38.098 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_3
+2021-05-21 18:17:38.119 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: findPageUsingPOST_2
+2021-05-21 18:17:38.129 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_4
+2021-05-21 18:17:38.143 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_4
+2021-05-21 18:17:38.299 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_5
+2021-05-21 18:17:38.390 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> Started ServletInitConfig in 16.978 seconds (JVM running for 29.456)
+2021-05-21 18:17:38.435 >>> [main] >>> INFO  >>> com.zaxxer.hikari.HikariDataSource >>> HikariPool-1 - Starting...
+2021-05-21 18:17:39.392 >>> [main] >>> INFO  >>> com.zaxxer.hikari.HikariDataSource >>> HikariPool-1 - Start completed.
+2021-05-21 18:17:56.374 >>> [http-nio-8080-exec-1] >>> INFO  >>> org.springframework.web.servlet.DispatcherServlet >>> Initializing Servlet 'dispatcherServlet'
+2021-05-21 18:17:56.419 >>> [http-nio-8080-exec-1] >>> INFO  >>> org.springframework.web.servlet.DispatcherServlet >>> Completed initialization in 44 ms
+2021-05-21 18:17:56.582 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 18:17:56.595 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 18:17:56.599 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/ui
+2021-05-21 18:17:56.601 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 18:17:56.603 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 18:17:56.817 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 255
+2021-05-21 18:17:56.818 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 18:17:57.194 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 18:17:57.194 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 18:17:57.196 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/security
+2021-05-21 18:17:57.201 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 18:17:57.202 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 18:17:57.224 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 30
+2021-05-21 18:17:57.225 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 18:17:57.374 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 18:17:57.375 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 18:17:57.376 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources
+2021-05-21 18:17:57.376 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 18:17:57.380 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 18:17:57.385 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 11
+2021-05-21 18:17:57.386 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 18:17:57.677 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 18:17:57.683 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 18:17:57.686 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/error
+2021-05-21 18:17:57.689 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 18:17:57.695 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 18:17:57.706 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 29
+2021-05-21 18:17:57.709 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:35:57.153 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> Starting ServletInitConfig on DESKTOP-7I6L3AP with PID 22628 (D:\project\apache-tomcat\9.0.46\bin\webapps\web-0.0.1-SNAPSHOT-test\WEB-INF\classes started by Admin in D:\project\apache-tomcat\9.0.46\bin\bin)
+2021-05-21 19:35:57.161 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> The following profiles are active: redis,mongo,db,test
+2021-05-21 19:36:00.445 >>> [main] >>> INFO  >>> o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>> Bean 'asyncConfiguration' of type [com.adas.core.config.AsyncConfiguration$$EnhancerBySpringCGLIB$$4f9fb37b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-21 19:36:01.260 >>> [main] >>> INFO  >>> o.s.b.w.s.c.ServletWebServerApplicationContext >>> Root WebApplicationContext: initialization completed in 3899 ms
+2021-05-21 19:36:03.551 >>> [main] >>> INFO  >>> o.s.scheduling.concurrent.ThreadPoolTaskScheduler >>> Initializing ExecutorService 'taskScheduler'
+2021-05-21 19:36:06.628 >>> [main] >>> INFO  >>> o.s.scheduling.concurrent.ThreadPoolTaskExecutor >>> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 19:36:06.902 >>> [main] >>> INFO  >>> o.s.b.a.web.servlet.WelcomePageHandlerMapping >>> Adding welcome page: class path resource [dist/index.html]
+2021-05-21 19:36:07.142 >>> [main] >>> INFO  >>> s.d.s.w.PropertySourcedRequestMappingHandlerMapping >>> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-21 19:36:07.673 >>> [main] >>> INFO  >>> s.d.s.web.plugins.DocumentationPluginsBootstrapper >>> Context refreshed
+2021-05-21 19:36:07.752 >>> [main] >>> INFO  >>> s.d.s.web.plugins.DocumentationPluginsBootstrapper >>> Found 1 custom documentation plugin(s)
+2021-05-21 19:36:07.846 >>> [main] >>> INFO  >>> s.d.spring.web.scanners.ApiListingReferenceScanner >>> Scanning for api listing references
+2021-05-21 19:36:08.682 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: findPageUsingPOST_1
+2021-05-21 19:36:08.705 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_1
+2021-05-21 19:36:08.733 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_1
+2021-05-21 19:36:08.746 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_1
+2021-05-21 19:36:08.760 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_2
+2021-05-21 19:36:08.779 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_2
+2021-05-21 19:36:08.788 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_2
+2021-05-21 19:36:08.834 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_3
+2021-05-21 19:36:08.854 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_3
+2021-05-21 19:36:08.864 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_3
+2021-05-21 19:36:08.893 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: findPageUsingPOST_2
+2021-05-21 19:36:08.898 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_4
+2021-05-21 19:36:08.908 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_4
+2021-05-21 19:36:09.095 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_5
+2021-05-21 19:36:09.170 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> Started ServletInitConfig in 13.734 seconds (JVM running for 22.979)
+2021-05-21 19:36:09.202 >>> [main] >>> INFO  >>> com.zaxxer.hikari.HikariDataSource >>> HikariPool-1 - Starting...
+2021-05-21 19:36:09.962 >>> [main] >>> INFO  >>> com.zaxxer.hikari.HikariDataSource >>> HikariPool-1 - Start completed.
+2021-05-21 19:36:53.721 >>> [http-nio-8080-exec-1] >>> INFO  >>> org.springframework.web.servlet.DispatcherServlet >>> Initializing Servlet 'dispatcherServlet'
+2021-05-21 19:36:53.761 >>> [http-nio-8080-exec-1] >>> INFO  >>> org.springframework.web.servlet.DispatcherServlet >>> Completed initialization in 39 ms
+2021-05-21 19:36:54.871 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:36:54.874 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:36:54.876 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/ui
+2021-05-21 19:36:54.876 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:36:54.877 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:36:55.009 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 144
+2021-05-21 19:36:55.009 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:36:55.280 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:36:55.282 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:36:55.282 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/security
+2021-05-21 19:36:55.283 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:36:55.284 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:36:55.291 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 10
+2021-05-21 19:36:55.294 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:36:55.408 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:36:55.409 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:36:55.409 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources
+2021-05-21 19:36:55.409 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:36:55.410 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:36:55.416 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 8
+2021-05-21 19:36:55.417 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:36:55.605 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:36:55.606 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:36:55.608 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/error
+2021-05-21 19:36:55.610 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:36:55.613 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:36:55.624 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 19
+2021-05-21 19:36:55.629 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:45:26.258 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> Starting ServletInitConfig on DESKTOP-7I6L3AP with PID 14632 (D:\project\apache-tomcat\9.0.46\bin\webapps\web-0.0.1-SNAPSHOT-test\WEB-INF\classes started by Admin in D:\project\apache-tomcat\9.0.46\bin\bin)
+2021-05-21 19:45:26.269 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> The following profiles are active: redis,mongo,db,test
+2021-05-21 19:45:30.320 >>> [main] >>> INFO  >>> o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>> Bean 'asyncConfiguration' of type [com.adas.core.config.AsyncConfiguration$$EnhancerBySpringCGLIB$$c6594ff3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-21 19:45:31.636 >>> [main] >>> INFO  >>> o.s.b.w.s.c.ServletWebServerApplicationContext >>> Root WebApplicationContext: initialization completed in 5117 ms
+2021-05-21 19:45:34.909 >>> [main] >>> INFO  >>> o.s.scheduling.concurrent.ThreadPoolTaskScheduler >>> Initializing ExecutorService 'taskScheduler'
+2021-05-21 19:45:38.354 >>> [main] >>> INFO  >>> o.s.scheduling.concurrent.ThreadPoolTaskExecutor >>> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 19:45:38.629 >>> [main] >>> INFO  >>> o.s.b.a.web.servlet.WelcomePageHandlerMapping >>> Adding welcome page: class path resource [dist/index.html]
+2021-05-21 19:45:38.989 >>> [main] >>> INFO  >>> s.d.s.w.PropertySourcedRequestMappingHandlerMapping >>> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-21 19:45:39.415 >>> [main] >>> INFO  >>> s.d.s.web.plugins.DocumentationPluginsBootstrapper >>> Context refreshed
+2021-05-21 19:45:39.483 >>> [main] >>> INFO  >>> s.d.s.web.plugins.DocumentationPluginsBootstrapper >>> Found 1 custom documentation plugin(s)
+2021-05-21 19:45:39.600 >>> [main] >>> INFO  >>> s.d.spring.web.scanners.ApiListingReferenceScanner >>> Scanning for api listing references
+2021-05-21 19:45:40.416 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: findPageUsingPOST_1
+2021-05-21 19:45:40.463 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_1
+2021-05-21 19:45:40.494 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_1
+2021-05-21 19:45:40.507 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_1
+2021-05-21 19:45:40.540 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_2
+2021-05-21 19:45:40.556 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_2
+2021-05-21 19:45:40.566 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_2
+2021-05-21 19:45:40.613 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_3
+2021-05-21 19:45:40.638 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_3
+2021-05-21 19:45:40.646 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_3
+2021-05-21 19:45:40.682 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: findPageUsingPOST_2
+2021-05-21 19:45:40.687 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_4
+2021-05-21 19:45:40.702 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_4
+2021-05-21 19:45:40.907 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_5
+2021-05-21 19:45:41.014 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> Started ServletInitConfig in 16.611 seconds (JVM running for 153.667)
+2021-05-21 19:45:41.051 >>> [main] >>> INFO  >>> com.zaxxer.hikari.HikariDataSource >>> HikariPool-1 - Starting...
+2021-05-21 19:45:41.871 >>> [main] >>> INFO  >>> com.zaxxer.hikari.HikariDataSource >>> HikariPool-1 - Start completed.
+2021-05-21 19:47:23.560 >>> [http-nio-8080-exec-2] >>> INFO  >>> org.springframework.web.servlet.DispatcherServlet >>> Initializing Servlet 'dispatcherServlet'
+2021-05-21 19:47:23.601 >>> [http-nio-8080-exec-2] >>> INFO  >>> org.springframework.web.servlet.DispatcherServlet >>> Completed initialization in 40 ms
+2021-05-21 19:47:24.466 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:47:24.473 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:47:24.475 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/ui
+2021-05-21 19:47:24.476 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:47:24.477 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:47:24.613 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 158
+2021-05-21 19:47:24.613 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:47:24.912 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:47:24.913 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:47:24.915 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/security
+2021-05-21 19:47:24.918 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:47:24.919 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:47:24.930 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 17
+2021-05-21 19:47:24.931 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:47:25.049 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:47:25.050 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:47:25.051 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources
+2021-05-21 19:47:25.052 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:47:25.053 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:47:25.059 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 10
+2021-05-21 19:47:25.060 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:47:25.259 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:47:25.260 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:47:25.260 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/error
+2021-05-21 19:47:25.265 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:47:25.269 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:47:25.280 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 21
+2021-05-21 19:47:25.291 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:47:59.443 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:47:59.445 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:47:59.446 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/ui
+2021-05-21 19:47:59.447 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:47:59.448 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:47:59.450 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 7
+2021-05-21 19:47:59.453 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:47:59.624 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:47:59.627 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:47:59.631 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/security
+2021-05-21 19:47:59.635 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:47:59.636 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:47:59.637 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 12
+2021-05-21 19:47:59.638 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:47:59.771 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:47:59.772 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:47:59.774 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources
+2021-05-21 19:47:59.775 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:47:59.776 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:47:59.777 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 6
+2021-05-21 19:47:59.777 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:00.005 >>> [http-nio-8080-exec-8] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:00.015 >>> [http-nio-8080-exec-8] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:00.026 >>> [http-nio-8080-exec-8] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/error
+2021-05-21 19:48:00.027 >>> [http-nio-8080-exec-8] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:00.125 >>> [http-nio-8080-exec-8] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:00.135 >>> [http-nio-8080-exec-8] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 129
+2021-05-21 19:48:00.138 >>> [http-nio-8080-exec-8] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:05.857 >>> [http-nio-8080-exec-9] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:05.870 >>> [http-nio-8080-exec-9] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:05.879 >>> [http-nio-8080-exec-9] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/ui
+2021-05-21 19:48:05.879 >>> [http-nio-8080-exec-9] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:05.880 >>> [http-nio-8080-exec-9] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:05.881 >>> [http-nio-8080-exec-9] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 24
+2021-05-21 19:48:05.883 >>> [http-nio-8080-exec-9] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:06.038 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:06.039 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:06.040 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/security
+2021-05-21 19:48:06.044 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:06.045 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:06.047 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 9
+2021-05-21 19:48:06.048 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:06.165 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:06.165 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:06.166 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources
+2021-05-21 19:48:06.167 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:06.167 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:06.168 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 3
+2021-05-21 19:48:06.169 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:06.331 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:06.333 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:06.334 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/error
+2021-05-21 19:48:06.335 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:06.339 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:06.341 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 9
+2021-05-21 19:48:06.341 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:51.571 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:51.573 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:51.574 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/ui
+2021-05-21 19:48:51.575 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:51.576 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:51.579 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 8
+2021-05-21 19:48:51.580 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:51.781 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:51.782 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:51.783 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources/configuration/security
+2021-05-21 19:48:51.787 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:51.787 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:51.790 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 9
+2021-05-21 19:48:51.791 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:51.917 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:51.918 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:51.918 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/swagger-resources
+2021-05-21 19:48:51.922 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:51.923 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:51.924 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 7
+2021-05-21 19:48:51.925 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:48:52.133 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:48:52.147 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:48:52.150 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/error
+2021-05-21 19:48:52.153 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : GET
+2021-05-21 19:48:52.154 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:48:52.159 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 25
+2021-05-21 19:48:52.161 >>> [http-nio-8080-exec-5] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 19:50:53.986 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 19:50:53.988 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 19:50:53.988 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/api-web/questionrepo/list
+2021-05-21 19:50:53.988 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : POST
+2021-05-21 19:50:53.989 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 19:51:40.883 >>> [HikariPool-1 housekeeper] >>> WARN  >>> com.zaxxer.hikari.pool.HikariPool >>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s829ms640?s600ns).
+2021-05-21 19:52:04.724 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 70737
+2021-05-21 19:52:04.725 >>> [http-nio-8080-exec-1] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 20:26:10.194 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> Starting ServletInitConfig on DESKTOP-7I6L3AP with PID 43872 (D:\project\apache-tomcat\9.0.46\bin\webapps\web-0.0.1-SNAPSHOT-test\WEB-INF\classes started by Admin in D:\project\apache-tomcat\9.0.46\bin\bin)
+2021-05-21 20:26:10.213 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> The following profiles are active: redis,mongo,db,test
+2021-05-21 20:26:14.198 >>> [main] >>> INFO  >>> o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker >>> Bean 'asyncConfiguration' of type [com.adas.core.config.AsyncConfiguration$$EnhancerBySpringCGLIB$$6f750d7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-21 20:26:15.303 >>> [main] >>> INFO  >>> o.s.b.w.s.c.ServletWebServerApplicationContext >>> Root WebApplicationContext: initialization completed in 4772 ms
+2021-05-21 20:26:18.511 >>> [main] >>> INFO  >>> o.s.scheduling.concurrent.ThreadPoolTaskScheduler >>> Initializing ExecutorService 'taskScheduler'
+2021-05-21 20:26:22.419 >>> [main] >>> INFO  >>> o.s.scheduling.concurrent.ThreadPoolTaskExecutor >>> Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-21 20:26:22.771 >>> [main] >>> INFO  >>> o.s.b.a.web.servlet.WelcomePageHandlerMapping >>> Adding welcome page: class path resource [dist/index.html]
+2021-05-21 20:26:23.245 >>> [main] >>> INFO  >>> s.d.s.w.PropertySourcedRequestMappingHandlerMapping >>> Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-21 20:26:23.828 >>> [main] >>> INFO  >>> s.d.s.web.plugins.DocumentationPluginsBootstrapper >>> Context refreshed
+2021-05-21 20:26:23.908 >>> [main] >>> INFO  >>> s.d.s.web.plugins.DocumentationPluginsBootstrapper >>> Found 1 custom documentation plugin(s)
+2021-05-21 20:26:24.023 >>> [main] >>> INFO  >>> s.d.spring.web.scanners.ApiListingReferenceScanner >>> Scanning for api listing references
+2021-05-21 20:26:24.971 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: findPageUsingPOST_1
+2021-05-21 20:26:25.003 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_1
+2021-05-21 20:26:25.039 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_1
+2021-05-21 20:26:25.047 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_1
+2021-05-21 20:26:25.076 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_2
+2021-05-21 20:26:25.098 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_2
+2021-05-21 20:26:25.114 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_2
+2021-05-21 20:26:25.162 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_3
+2021-05-21 20:26:25.192 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_3
+2021-05-21 20:26:25.206 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: deleteUsingPOST_3
+2021-05-21 20:26:25.234 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: findPageUsingPOST_2
+2021-05-21 20:26:25.238 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_4
+2021-05-21 20:26:25.278 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: saveOrEditUsingPOST_4
+2021-05-21 20:26:25.511 >>> [main] >>> INFO  >>> s.d.s.w.r.operation.CachingOperationNameGenerator >>> Generating unique operation named: getDetailByIdUsingPOST_5
+2021-05-21 20:26:25.618 >>> [main] >>> INFO  >>> com.adas.train.web.global.config.ServletInitConfig >>> Started ServletInitConfig in 17.401 seconds (JVM running for 46.26)
+2021-05-21 20:26:25.662 >>> [main] >>> INFO  >>> com.zaxxer.hikari.HikariDataSource >>> HikariPool-1 - Starting...
+2021-05-21 20:26:26.593 >>> [main] >>> INFO  >>> com.zaxxer.hikari.HikariDataSource >>> HikariPool-1 - Start completed.
+2021-05-21 20:26:45.486 >>> [http-nio-8080-exec-2] >>> INFO  >>> org.springframework.web.servlet.DispatcherServlet >>> Initializing Servlet 'dispatcherServlet'
+2021-05-21 20:26:45.544 >>> [http-nio-8080-exec-2] >>> INFO  >>> org.springframework.web.servlet.DispatcherServlet >>> Completed initialization in 56 ms
+2021-05-21 20:26:45.729 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 20:26:45.736 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 20:26:45.739 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/api-web/questionrepo/list
+2021-05-21 20:26:45.742 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : POST
+2021-05-21 20:26:45.743 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 20:27:06.209 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 20494
+2021-05-21 20:27:06.212 >>> [http-nio-8080-exec-2] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 20:27:59.249 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 20:27:59.251 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 20:27:59.251 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/api-web/questionrepo/list
+2021-05-21 20:27:59.252 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : POST
+2021-05-21 20:27:59.253 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 20:27:59.450 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 200
+2021-05-21 20:27:59.451 >>> [http-nio-8080-exec-3] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 20:28:00.970 >>> [http-nio-8080-exec-6] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 20:28:00.971 >>> [http-nio-8080-exec-6] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 20:28:00.972 >>> [http-nio-8080-exec-6] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/api-web/questionrepo/list
+2021-05-21 20:28:00.973 >>> [http-nio-8080-exec-6] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : POST
+2021-05-21 20:28:00.974 >>> [http-nio-8080-exec-6] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 20:28:01.129 >>> [http-nio-8080-exec-6] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 159
+2021-05-21 20:28:01.131 >>> [http-nio-8080-exec-6] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 20:28:02.562 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 20:28:02.563 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 20:28:02.564 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/api-web/questionrepo/list
+2021-05-21 20:28:02.565 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : POST
+2021-05-21 20:28:02.565 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 20:28:02.698 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 135
+2021-05-21 20:28:02.698 >>> [http-nio-8080-exec-7] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
+2021-05-21 20:28:04.384 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      START      ---
+2021-05-21 20:28:04.386 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [IP] : 192.168.80.64
+2021-05-21 20:28:04.386 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [URL] : http://localhost:8080/web-0.0.1-SNAPSHOT-test/api-web/questionrepo/list
+2021-05-21 20:28:04.387 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [HTTP_METHOD] : POST
+2021-05-21 20:28:04.388 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ARGS] : null
+2021-05-21 20:28:04.514 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> [ELAPSED_MS] : 130
+2021-05-21 20:28:04.515 >>> [http-nio-8080-exec-4] >>> INFO  >>> com.adas.core.aspect.WebLogAspect >>> ---      END      ---
